@@ -1,0 +1,85 @@
+.mainNav{
+    background: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(10px);
+    color: black;
+    font-size: larger;
+    font-weight:500;
+}
+
+.navBrand{
+    margin-left: 2%;
+    /* color: #073f58; */
+}
+
+.navCont{
+    margin: auto;
+    /* color: #073f58; */
+}
+
+
+.offCanvas{
+    background-image: linear-gradient(to bottom right, #5761B2, #1FC5A8);
+}
+
+
+.listItem{
+    background: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(10px);
+    color: black;
+    font-size:large;
+    border: none;
+}
+
+
+.deleteBtn{
+    background-color: transparent;
+    color: black;
+    font-size:x-large;
+    border: none;
+    float: right;
+}
+
+.deleteBtn:hover{
+    background-color: #285468;
+    color: white;
+}
+
+.iconBtn{
+    margin-bottom: 5px;
+}
+
+.questionTag{
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.addBtn{
+    background-color: transparent;
+    color: black;
+    font-size:large;
+    border: 0.5px solid #073f58;
+}
+
+
+.addBtn:hover{
+    background-color: #073f58;
+    color: white;
+    border: 0.5px solid #073f58;
+}
+
+
+.addBtn:active{
+    background-color: #073f58 !important;
+    color: white;
+    border: 0.5px solid #073f58 !important;
+}
+
+
+.profileCont{
+    text-align: center;
+}
+
+.profileImages{
+    border-radius: 50%;
+    width: 5rem;
+}

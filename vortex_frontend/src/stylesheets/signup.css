@@ -1,0 +1,99 @@
+.signUpMainCont{
+   margin-top: 2%;
+   filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.63));
+}
+
+.formInput{
+    background-color: transparent;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 10px 10px 5px 10px ;
+}
+
+.formInput:focus{
+    background-color: transparent;
+    border-radius: 10px 10px 5px 10px ;
+    box-shadow: 0px 0px 10px 1px #203a43;
+    color: #203a43;
+}
+
+  
+
+.formSignInBtn{
+    background: #1FC5A8;
+    border: none;
+    width: 8rem;
+    margin: auto;
+    color: black;
+    font-weight: 500;
+}
+.formSignInBtn:hover{
+    background: #1FC5A8;
+    box-shadow: 0px 0px 3px 1px #dad9d7; 
+}
+.formSignInBtn:focus{
+    background: #1FC5A8;
+    box-shadow: 0px 0px 3px 1px #dad9d7; 
+}
+
+
+.headingCont{
+    color: black;
+    text-align: center;
+}
+
+
+
+.orCont{
+    background-color: transparent;
+    color: #203a43;
+}
+
+.orTxt{
+    display: flex;
+    flex-direction: row;
+}
+.orTxt:before, .orTxt:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+.orTxt:before {
+    margin-right: 10px
+}
+.orTxt:after {
+    margin-left: 10px
+}
+
+
+.signUpTxt{
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.signUpTxt:hover{
+    color: #fff;
+}
+
+.spinner{
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.signInMainImage{
+    width: 20rem;
+    /* filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.63)); */
+}
+
+
+.signInLogoImage{
+    width: 10%;
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.63));
+}

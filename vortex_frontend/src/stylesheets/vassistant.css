@@ -1,0 +1,87 @@
+.chatMainCont{
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.chatArea{
+    height: 70vh;
+    overflow: auto;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #6652c0 transparent;
+}
+
+
+.chatList{
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}
+
+
+.chatListUser {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: none;
+    padding: 5px;
+}
+
+
+.chatListVortex {
+    background-color: transparent;
+    border: none;
+}
+
+
+.logoImg{
+    width: 3rem;    
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+  
+  /* Define the styles for the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #073f58; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+
+.inputGroup{
+    /* height: 3rem; */
+    border: 0.5px solid #073f58;
+    border-radius: 10px 10px 10px 10px ;
+}
+
+
+.textInput{
+    background-color: transparent;
+    color: black;
+    border-width: 2px;
+    border-right: none;
+    border: none;
+    font-size:larger;
+}
+
+
+.textInput:focus{
+    background-color: transparent;
+    box-shadow: none !important;
+    border: none !important;
+    color: black;
+}
+
+.textSubmitBtn{
+    background-color: transparent;
+    color: black;
+    font-size:x-large;
+    border: none;
+}

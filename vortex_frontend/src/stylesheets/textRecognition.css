@@ -1,0 +1,81 @@
+.ocrImage{
+    width: 10rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.modalHeader{
+    /* background-image: linear-gradient(to bottom right, #5761B2, #1FC5A8); */
+    background-color: #5761B2;
+    color: black;
+    border: 1px solid #073f58;
+    border-bottom: none;
+}
+
+.modalBody{
+    background-image: linear-gradient(to bottom , #5761B2, #1FC5A8);
+    /* background: #66a1b8; */
+    color: black;
+    border: 1px solid #073f58;
+    border-bottom: none;
+    border-top: none;
+}
+
+
+.modalFooter{
+    /* background-image: linear-gradient(to bottom right, #5761B2, #1FC5A8); */
+    background-color: #1FC5A8;
+    color: black;
+    border: 1px solid #073f58;
+    border-top: none;
+}
+
+.fileInput{
+    background: transparent;
+    border: 1px solid #073f58;
+}
+
+.fileInput:focus{
+    background: transparent;
+    border: 1px solid #073f58;
+}
+
+.imageTextInput{
+    background: transparent;
+    border: 1px solid #073f58 !important;
+}
+
+
+.imageTextInput:focus{
+    background: transparent;
+    border: 1px solid #073f58 !important;
+}
+
+
+.imageTextInput:active{
+    background: transparent;
+    border: 1px solid #073f58 !important;
+}
+
+
+.speakBtn{
+    background-color: transparent;
+    color: black;
+    font-size:x-large;
+    border: none;
+    float: right;
+}
+
+.speakBtn:disabled{
+    background-color: transparent;
+    color: black;
+    font-size:x-large;
+    border: none;
+    float: right;
+}
+
+.speakBtn:hover{
+    background-color: #285468;
+    color: white;
+}
+
